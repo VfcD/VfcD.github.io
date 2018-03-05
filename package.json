@@ -4,14 +4,16 @@
   "version": "0.0.1",
   "homepage": "https://vfcd.github.io/",
   "author": "Karsten Buckstegge",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/VfcD/VfcD.github.io/blob/master/LICENSE"
-  },
+  "license": "MIT",
+  "repository": "https://github.com/VfcD/VfcD.github.io.git",
+  "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
+    "node-sass": "^4.7.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/VfcD/VfcD.github.io.git"
+  "scripts": {
+    "start": "yarn build-css -w",
+    "build-css": "node-sass styles/style.scss dist/style.css",
+    "build": "yarn build-css"
   }
 }
