@@ -1,409 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="vfcd verein für coole Dinge, cool place for cool people and ideas"/>
-	<meta name="keywords"  content="vfcd, Verein für coole Dinge, Verein fuer coole Dinge, Projekte, Idee, Raum, Zeit,
-					Mannheihm, Bonn, Mainz, Berlin"/>
+    <meta name="keywords" content="vfcd, Verein für coole Dinge, Verein fuer coole Dinge, Projekte, Idee, Raum, Zeit, Mannheim, Bonn, Mainz, Berlin"/>
     <meta name="author" content="bm">
-
 
     <title>VfcD Verein für coole Dinge</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Pontano+Sans" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link href="dist/style.css" rel="stylesheet">
 </head>
 
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">VfcD</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-					<li class="page-scroll">
-                        <a href="#projekte">projekte</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#bereiche">bereiche</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#mitwirkende">mitwirkende</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+<body>
+    <nav class="navigation">
+        <span class="brand">VfcD</span>
+        <ul class="menu">
+            <li class="menu__item">About</li>
+            <li class="menu__item">Projekte</li>
+            <li class="menu__item">Bereiche</li>
+            <li class="menu__item">Mitwirkende</li>
+            <li class="menu__item">Kontakt</li>
+        </ul>
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Verein für coole Dinge </span>
-                        <hr class="star-light">
-                        <span class="skills">
-				„Die Welt zu durchschauen, sie zu verachten, mag großer Denker Sache sein.<br>
-				Mir aber liegt einzig daran, die Welt lieben zu können,<br>
-				sie und mich und alle Wesen mit Liebe und Bewunderung und Ehrfurcht betrachten zu können.“<br>
-				-  Emil Sinclair </span>
-                    </div>
-                </div>
-            </div>
+    <header class="header section">
+        <div class="section__content">
+            <img src="./img/profile1.png" alt="" class="header__image">
+            <h1 class="h1">Verein für coole Dinge</h1>
+            <p class="header__intro">„Die Welt zu durchschauen, sie zu verachten, mag großer Denker Sache sein.<br>
+                Mir aber liegt einzig daran, die Welt lieben zu können,<br>
+                sie und mich und alle Wesen mit Liebe und Bewunderung und Ehrfurcht betrachten zu können.“<br>
+                -  Emil Sinclair
+            </p>
         </div>
     </header>
 
+    <section class="section about">
+        <div class="section__content">
+            <h2 class="h2">About</h2>
+            <p class="text">
+                Als Kinder des „IT-Cluster Rhein-Main-Neckar“, möchten wir Uns verschiedensten Arten von Projekten widmen.
+                Wir planen auf lange Sicht Uns und Euch eine Plattform schaffen, um wirklich coole Dinge realisieren zu können.
+                Analog, digital, total egal!<br>
+                Einfach machen.
+                <br><br>
+                Einfach mal eine Halle anmieten und Yoga machen, einen Computerkurs geben,
+                Fahrrädreperaturkurse oder Messerschleifsteintalks, denkbar ist Alles.
+            </p>
+            <a href="#" class="link">FIXME: Link to Contact</a>
+        </div>
+    </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+    <section class="section projects">
+        <div class="section__content">
+            <h2 class="h2">Projects</h2>
+            <div class="grid">
+                <div class="grid__item">
+                    <img class="project__image" src="img/proj/read.png" alt="">
+                    <h3 class="h3">Volesen am ...</h3>
+                    <div class="project__sub-headline">Mannheim, Bonn</div>
+                    <div class="project__leader">leader: bartosz</div>
+                    <div class="project__contact">
+                        check on Github:&nbsp;
+                        <a class="project__contact__link" href="https://vfcd.github.io/va/">CLICK</a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p> Als Kinder des „IT-Cluster Rhein-Main-Neckar“, möchten wir Uns verschiedensten Arten von Projekten widmen.
-			    Wir planen auf lange Sicht Uns und Euch eine Plattform schaffen, um wirklich coole Dinge realisieren zu können.
-			    Analog, digital, total egal!<br>
-			    Einfach machen.  </p>
+                <div class="grid__item">
+                    <img class="project__image" src="img/proj/tut.png" alt="">
+                    <h3 class="h3">Tutorials</h3>
+                    <div class="project__sub-headline">howto</div>
+                    <div class="project__leader">leader: all</div>
+                    <div class="project__contact">
+                        check on Github:&nbsp;
+                        <a class="project__contact__link" href="https://vfcd.github.io/tutorials/">CLICK</a>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>Einfach mal eine Halle anmieten und Yoga machen, einen Computerkurs geben,
-			    Fahrrädreperaturkurse oder Messerschleifsteintalks, denkbar ist Alles.<br><br>
-				-> <a href="#contact"><img src="img/bereiche/linux.png" alt="linux"></a> <-</p>
+                <div class="grid__item">
+                    <img class="project__image" src="img/proj/tele.png" alt="">
+                    <h3 class="h3">telegram</h3>
+                    <div class="project__sub-headline">bot</div>
+                    <div class="project__leader">leader: bartosz</div>
+                    <div class="project__contact">
+                        check Github:&nbsp;
+                        <a class="project__contact__link" href="https://github.com/bmmmm/sdhgfbdsakjbgfahskjdf">CLICK</a>
+                    </div>
                 </div>
-       <!--    <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                <div class="grid__item">
+                    <img class="project__image" src="img/proj/boat.png" alt="">
+                    <h3 class="h3">Unmanned Surface Vehicle</h3>
+                    <div class="project__sub-headline">boat</div>
+                    <div class="project__leader">leader: elias</div>
+                    <div class="project__contact">
+                        check on slack
+                    </div>
                 </div>
-      -->
+                <div class="grid__item">
+                    <img class="project__image" src="img/proj/fly.png" alt="">
+                    <h3 class="h3">CyberSecuritySlam</h3>
+                    <div class="project__sub-headline">Präsentation</div>
+                    <div class="project__leader">leader: bartosz</div>
+                    <div class="project__contact">
+                        hier geht's lang:&nbsp;
+                        <a href="https://vfcd.github.io/css18/">CLICK</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-	       <!-- projekte Grid Section -->
-        <section  id="projekte">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>projekte</h2>
-                        <hr class="star-primary">
-                    </div>
+    <section class="section areas">
+        <div class="section__content">
+            <div class="grid">
+                <div class="grid__item area">
+                    <img src="img/bereiche/Backup.png" alt="backups">
                 </div>
-                <div class="row">
-                  <div class="col-lg-4 ">
-                      <img class="img-circle img-responsive img-center" src="img/proj/read.png" alt="">
-                      <h3>Volesen am ...
-                          <small>Mannheim, Bonn</small>
-                      </h3>
-                      <p>leader: bartosz</p>
-                      <p>check on Github: <a href="https://vfcd.github.io/va/">CLICK</a> </p>
-                  </div>
-                  <div class="col-lg-4 ">
-                      <img class="img-circle img-responsive img-center" src="img/proj/tut.png" alt="">
-                      <h3>Tutorials
-                          <small>howto</small>
-                      </h3>
-                      <p>leader: all</p>
-                      <p>check on Github: <a href="https://vfcd.github.io/tutorials/">CLICK</a> </p>
-                  </div>
-                  <div class="col-lg-4 ">
-                      <img class="img-circle img-responsive img-center" src="img/proj/tele.png" alt="">
-                      <h3>telegram
-                          <small>bot</small>
-                      </h3>
-                      <p>leader: bartosz</p>
-                      <p>check Github: <a href="https://github.com/bmmmm/sdhgfbdsakjbgfahskjdf">CLICK</a> </p>
-                  </div>
-                  <div class="col-lg-4 ">
-                      <img class="img-circle img-responsive img-center" src="img/proj/boat.png" alt="">
-                      <h3>Unmanned Surface Vehicle
-                          <small>boat</small>
-                      </h3>
-                      <p>leader: elias</p>
-                      <p>check on slack</p>
-                  </div>
-                  <div class="col-lg-4 ">
-                      <img class="img-circle img-responsive img-center" src="img/proj/fly.png" alt="">
-                      <h3>CyberSecuritySlam
-                          <small>Präsentation</small>
-                      </h3>
-                      <p>leader: bartosz</p>
-			  <p>Hier geht's lang: <a href="https://vfcd.github.io/css18/">CLICK</a> </p>
-			  
-			   
-                  </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/camp.png" alt="camping">
                 </div>
-            </div>
-        </section>
-
-		       <!-- bereiche Grid Section -->
-        <section  id="bereiche">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>bereiche</h2>
-                        <hr class="star-primary">
-                    </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/Archlinux-logo.png" alt="archlinux">
                 </div>
-                <div class="row">
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/Backup.png" alt="backups">
-                  </div>
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/camp.png" alt="camping">
-                  </div>
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/Archlinux-logo.png" alt="archlinux">
-                  </div>
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/adventure.png" alt="adventure">
-                  </div>
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/bicycles.png" alt="bicycles">
-                  </div>
-                  <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/cloud.png" alt="cloud">
-                  </div>
-				          <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/collab.png" alt="colab">
-                  </div>
-				          <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/linux.png" alt="linux">
-                  </div>
-				          <div class="col-xs-3">
-                      <img class=" img-responsive img-center" src="img/bereiche/python.png" alt="python">
-                  </div>
-				          <div class="col-xs-3 ">
-                      <img class=" img-responsive img-center" src="img/bereiche/raspberry.png" alt="raspberry">
-                  </div>
-
+                <div class="grid__item area">
+                    <img src="img/bereiche/adventure.png" alt="adventure">
                 </div>
-            </div>
-        </section>
-
-    <!-- mitwirkende Grid Section -->
-    <section  id="mitwirkende">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>mitwirkende</h2>
-                    <hr class="star-primary">
+                <div class="grid__item area">
+                    <img src="img/bereiche/bicycles.png" alt="bicycles">
                 </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/5.jpg" alt="">
-                  <h3>lisa
-                      <small>fresh designs</small>
-                  </h3>
-                  <p>no info</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/1.jpg" alt="">
-                  <h3>alina
-                      <small>Fraurenrechte</small>
-                  </h3>
-                  <p>no info</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/2.jpg" alt="">
-                  <h3>elias
-                      <small>Camping</small>
-                  </h3>
-                    <p>programmieren</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/3.jpg" alt="">
-                  <h3>sekretär
-                      <small>Notieren</small>
-                  </h3>
-                  <p>im Internetz</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/4.jpg" alt="">
-                  <h3>bartosz
-                      <small>Fahrer</small>
-                  </h3>
-                  <p>organisieren</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/default.png" alt="">
-                  <h3>christian
-                      <small>hax0r</small>
-                  </h3>
-                  <p>programmieren</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/6.jpg" alt="">
-                  <h3>rené
-                      <small>Gehirn</small>
-                  </h3>
-                  <p>ratschlagen</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/default.png" alt="">
-                  <h3>piotr
-                      <small>Denker</small>
-                  </h3>
-                  <p>programmieren</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/default.png" alt="">
-                  <h3>leo
-                      <small>hax0r</small>
-                  </h3>
-                  <p>programmieren</p>
-              </div>
-              <div class="col-sm-2 text-center">
-                  <img class="img-circle img-responsive img-center" src="img/usr/default.png" alt="">
-                  <h3>Andi
-                      <small>Linux</small>
-                  </h3>
-                  <p>gottstatus</p>
-              </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/cloud.png" alt="cloud">
+                </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/collab.png" alt="colab">
+                </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/linux.png" alt="linux">
+                </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/python.png" alt="python">
+                </div>
+                <div class="grid__item area">
+                    <img src="img/bereiche/raspberry.png" alt="raspberry">
+                </div>
             </div>
         </div>
     </section>
 
-
-
-    <!-- Contact Section -->
-    <section  id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>contact us
-                    <small>:derbarti gmail com</small></h2>
-                    <hr class="star-primary">
+    <section class="section contributers">
+        <div class="section__content">
+            <div class="grid">
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/5.jpg" alt="">
+                    <h3 class="h3">lisa</h3>
+                    <div class="contributer__title">fresh designs</div>
+                    <div class="contributer__topic">no info</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/1.jpg" alt="">
+                    <h3 class="h3">alina</h3>
+                    <div class="contributer__title">Fraurenrechte</div>
+                    <div class="contributer__topic">no info</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/2.jpg" alt="">
+                    <h3 class="h3">elias</h3>
+                    <div class="contributer__title">Camping</div>
+                    <div class="contributer__topic">programmieren</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/3.jpg" alt="">
+                    <h3 class="h3">sekretär</h3>
+                    <div class="contributer__title">Notieren</div>
+                    <div class="contributer__topic">im Internetz</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/4.jpg" alt="">
+                    <h3 class="h3">bartosz</h3>
+                    <div class="contributer__title">Fahrer</div>
+                    <div class="contributer__topic">organisieren</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/default.png" alt="">
+                    <h3 class="h3">christian</h3>
+                    <div class="contributer__title">hax0r</div>
+                    <div class="contributer__topic">programmieren</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/6.jpg" alt="">
+                    <h3 class="h3">rené</h3>
+                    <div class="contributer__title">Gehirn</div>
+                    <div class="contributer__topic">ratschlagen</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/default.png" alt="">
+                    <h3 class="h3">piotr</h3>
+                    <div class="contributer__title">Denker</div>
+                    <div class="contributer__topic">programmieren</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/default.png" alt="">
+                    <h3 class="h3">leo</h3>
+                    <div class="contributer__title">hax0r</div>
+                    <div class="contributer__topic">programmieren</div>
+                </div>
+                <div class="grid__item">
+                    <img class="contributer__image" src="img/usr/default.png" alt="">
+                    <h3 class="h3">Andi</h3>
+                    <div class="contributer__title">Linux</div>
+                    <div class="contributer__topic">gottstatus</div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>1.850° to ecliptic - 5.65° to Sun's equator - 1.67° to invariable plane
-                            <br>Longitude of ascending node, 49.558°
-                            <br>Argument of perihelion, 286.502°
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web / around the world</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://theskylive.com/mars-tracker" class="btn-social btn-outline"><i class="fa fa-fw fa-globe"></i></a>
-                            </li>
-
-                            <!--
-
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                          -->
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>So­cial Me­dia</h3>
-                        <a href="https://www.facebook.com/vfcd1/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook-official"></i></a>
-                    </div>
-
-
-                </div>
-            </div>
+    <section class="section contact">
+        <div class="section__content">
+            <h2 class="h2">Contact Us</h2>
+            <p class="contact__email">:derbarti gmail com</p>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; VfcD 2018 - <a href="https://icons8.com">icons : Icons8</a>
+    </section>
+
+    <footer class="footer section">
+        <div class="section__content">
+            <div class="grid">
+                <div class="grid__item">
+                    <h3 class="h3">Location</h3>
+                    <div class="footer__item__content">
+                        1.850° to ecliptic - 5.65° to Sun's equator - 1.67° to invariable plane
+                        <br>Longitude of ascending node, 49.558°
+                        <br>Argument of perihelion, 286.502°
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <h3 class="h3">Around the Web / around the world</h3>
+                    <div class="footer__item__content">
+                        <a href="https://theskylive.com/mars-tracker">FIXME: Some Icon</a>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <h3 class="h3">So­cial Me­dia</h3>
+                    <div class="footer__item__content">
+                        <a href="https://www.facebook.com/vfcd1/">FIXME: Facebook Icon</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
+    <div class="copyright">
+        Copyright &copy; VfcD 2018 - <a href="https://icons8.com">icons : Icons8</a>
     </div>
-
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-    <!-- comercials -->
-
-
 </body>
 
 </html>
